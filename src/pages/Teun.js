@@ -5,6 +5,7 @@ import miki1 from '../assets/images/miki-mirage7b.png';
 import miki2 from '../assets/images/miki-pb.png';
 import miki3 from '../assets/images/na-101.png';
 import miki4 from '../assets/images/miki-hal48.png';
+import { Link } from 'react-router-dom';
 
 function Teun() {
 
@@ -48,8 +49,10 @@ function Teun() {
         <div className="topmu">
             <div className="inner">
                 <div className="logot tune">
+                    <Link to="/">
                     <p>일반휠체어 대여</p>
                     <span>TEUN-TEUN welfare equipment</span>
+                    </Link>
                 </div>
                 <div className="contnm">상담문의 : 1533-5921</div>
             </div>
@@ -59,6 +62,7 @@ function Teun() {
         <div className="inner">
           <div className="tuncont">
                 <div className="subti">
+
                 <p>일반 휠체어 임대료</p>
                 </div>
 

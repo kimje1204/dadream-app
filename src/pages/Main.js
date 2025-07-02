@@ -49,29 +49,29 @@ function Main() {
 
 
         <div className="box">
-            <a href="/Oxy" target="_blank" rel="noopener noreferrer">
-            {/* <Link to="/Oxy"> */}
+            {/* <a href="/Oxy" target="_blank" rel="noopener noreferrer"> */}
+            <Link to="/Oxy">
             <div className="ico">
               <img src={icoMainselOxy} target="_blank" alt="산소발생기 아이콘" />
             </div>
             <p>산소발생기</p>
             <span>산소치료 처방전을 받으신 분</span>
             <div className="mo">+</div>
-            {/* </Link> */}
-            </a>
+            </Link>
+            {/* </a> */}
         </div>
 
         <div className="box">
-          <a href="/Teun" target="_blank" rel="noopener noreferrer">
-          {/* <Link to="/Teun"> */}
+          {/* <a href="/Teun" target="_blank" rel="noopener noreferrer"> */}
+          <Link to="/Teun">
             <div className="ico old">
               <img src={icoMainselChair} alt="휠체어대여 아이콘" />
             </div>
             <p>휠체어대여</p>
             <span>재활환자, 거동이 불편하신분</span>
             <div className="mo">+</div>
-             {/* </Link> */}
-          </a>
+            </Link>
+          {/* </a> */}
         </div>
 
         <div className="box">
